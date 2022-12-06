@@ -1,0 +1,13 @@
+importnumpyasnp
+importpandasaspd
+importseabornassns
+frommatplotlibimportpyplotasplt
+importwarnings
+warnings.simplefilter(action="ignore")
+#!pipinstallmissingno
+importmissingnoasmsno
+fromdatetimeimportdate
+fromsklearn.metricsimportaccuracy_score
+fromsklearn.model_selectionimporttrain_test_split
+fromsklearn.neighborsimportLocalOutlierFactor
+fromsklearn.preprocessingimportMinMaxScaler,LabelEncoder,StandardScaler,RobustScaler
